@@ -56,3 +56,8 @@ print(f"the result of n + nn++nnn is : {result}")
 print(abs.__doc__)
 print(int.__doc__)
 
+#12 Write a Python program that prints the calendar for a given month and year.
+import calendar
+year = int(input('Enter year (e.g., 2024): '))
+month = int(input('Enter month (1-12): '))
+print(calendar.month(year, month))
