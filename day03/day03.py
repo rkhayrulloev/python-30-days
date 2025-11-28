@@ -37,4 +37,10 @@ number_tuple = tuple(number_list)
 print(f'List: {number_list}')
 print(f'Tuple: {number_tuple}')
 
+#8 Write a Python program to display the first and last colors from the following list.
+color_list = ["Red", "Green", "White", "Black"]
+print(f'First color: {color_list[0]} and Last color: {color_list[-1]}')
 
+#9 Write a Python program to display the examination schedule. (extract the date from exam_st_date).
+exam_st_date = (11, 12, 2014)
+print(f'Examination date: {exam_st_date[0]}/{exam_st_date[1]}/{exam_st_date[2]}')
