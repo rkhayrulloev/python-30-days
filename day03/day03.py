@@ -61,3 +61,21 @@ import calendar
 year = int(input('Enter year (e.g., 2024): '))
 month = int(input('Enter month (1-12): '))
 print(calendar.month(year, month))
+
+#13 Write a Python program to print the following 'here document'.
+print("""\
+a string that you "don't" have to escape
+This
+is a ....... multi-line string that you "can"
+also use 'single' or "double" quotes        
+here
+""")
+
+#14 Write a Python program to calculate the number of days between two dates.
+from datetime import datetime
+date1 = input('Enter first date (YYYY-MM-DD): ')
+date2 = input('Enter first date (YYYY-MM-DD): ')
+d1 = datetime.strptime(date1, '%Y-%m-%d')
+d2 = datetime.strptime(date2, '%Y-%m-%d')
+delta = abs((d2 - d1).days)
+print(f'The number of days between {date1} and {date2} is {delta} days.')
