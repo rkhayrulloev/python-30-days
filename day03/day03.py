@@ -25,3 +25,16 @@ radius = float(input('Enter the radius of the circle: '))
 area = math.pi * radius ** 2
 print(f'The area of the circle with radius {radius} is: {area}')
 
+#5 Write a Python program that accepts the user's first and last name and prints them in reverse order with a space between them.
+first_name = input('Enter your first name: ')
+last_name = input('Enter your last name: ')
+print(f'Reversed name: {last_name} {first_name}')
+
+#6 Write a Python program that accepts a sequence of comma-separated numbers from the user and generates a list and a tuple of those numbers.
+numbers = input('Enter a sequence of comma-separated numbers: ')
+number_list = numbers.split(',')
+number_tuple = tuple(number_list)
+print(f'List: {number_list}')
+print(f'Tuple: {number_tuple}')
+
+
