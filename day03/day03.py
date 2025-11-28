@@ -44,3 +44,15 @@ print(f'First color: {color_list[0]} and Last color: {color_list[-1]}')
 #9 Write a Python program to display the examination schedule. (extract the date from exam_st_date).
 exam_st_date = (11, 12, 2014)
 print(f'Examination date: {exam_st_date[0]}/{exam_st_date[1]}/{exam_st_date[2]}')
+
+#10 Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+n = int(input('Enter an integer: '))
+nn = int(f"{n}{n}")
+nnn = int(f"{n}{n}{n}")
+result = n+nn+nnn
+print(f"the result of n + nn++nnn is : {result}")
+
+#11 Write a Python program to print the documents (syntax, description etc.) of Python built-in function(s).
+print(abs.__doc__)
+print(int.__doc__)
+
