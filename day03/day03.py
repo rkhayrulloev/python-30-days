@@ -85,4 +85,14 @@ import math
 
 radius = input("Enter the radius of the sphere: ")
 volume = (4/3) * math.pi * float(radius) ** 3
-print(f'The volume of the sphere with radius {radius} is: {volume}')    
+print(f'The volume of the sphere with radius {radius} is: {volume}')  
+
+#16 Write a Python program to get the difference between a given number and 17. If the number is greater than 17, return double the absolute difference.
+def difference_from_17(n):
+    if n<17:
+        return 17 - n
+    else:
+        return (n-17) * 2
+number = int(input('Enter a number: '))
+result = difference_from_17(number)
+print(f'The result is: {result}')
