@@ -79,3 +79,10 @@ d1 = datetime.strptime(date1, '%Y-%m-%d')
 d2 = datetime.strptime(date2, '%Y-%m-%d')
 delta = abs((d2 - d1).days)
 print(f'The number of days between {date1} and {date2} is {delta} days.')
+
+#15 Write a Python program to get the volume of a sphere with radius six.
+import math
+
+radius = input("Enter the radius of the sphere: ")
+volume = (4/3) * math.pi * float(radius) ** 3
+print(f'The volume of the sphere with radius {radius} is: {volume}')    
